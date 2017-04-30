@@ -1,0 +1,142 @@
+body {
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+
+h1 {
+  font-family: 'Baloo', cursive;
+  font-size: 48px;
+  text-align: center;
+  color: #C0b283;
+  margin-top: 20px;
+}
+
+form {
+  text-align: center;
+  margin: 30px;
+}
+input {
+  border-radius: 10px;
+  
+}
+
+.container {
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  width: 70%;
+  height: auto;
+  padding: 2%;
+  background-color: #dcd0c0;
+  box-shadow: 2px 2px 5px #373737;
+  border-radius: 10px;
+}
+
+.selectOption {
+  font-family: 'Baloo', cursive;
+  margin-top: 0%;
+  padding-bottom: 5%;
+  height: auto;
+  color: #dcd0c0;
+  background-color: rgba(55, 55, 55, 0.9);
+  box-shadow: 2px 2px 5px #373737;
+  border-radius: 10px;
+}
+
+.selectOption:hover {
+  cursor: pointer;
+  background-color: rgba(55, 55, 55, 0.8);
+  box-shadow: 5px 5px 10px rgb(55, 55, 55);
+}
+
+.userInfoWindowOuter {
+  text-align: center;
+  background-color: #f4f4f4;
+  height: auto;
+  margin-top: 3%;
+  box-shadow: 2px 2px 5px #373737;
+  border-radius: 10px;
+}
+
+.twitchLink:hover {
+  text-decoration: none;
+}
+
+h6 {
+  font-family: 'Baloo', cursive;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h5 {
+  font-family: 'Baloo', cursive;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 20%;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+h4 {
+  display: block;
+  color: #C0b283;
+  font-family: 'Baloo', cursive;
+  font-size: small
+}
+
+.symbol {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.offlineSymbol {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  h4 {
+    font-size: x-small;
+  }
+  h5 {
+    font-size: small;
+    display: inline-block;
+  }
+  .logo {
+    width: 40%;
+    border-radius: 50%;
+    margin: 2%;
+  }
+  .container {
+    width: 90%;
+  }
+  .col-md-4 {
+    padding: 2%!important;
+    margin: 0%!important;
+    width: 30%!important;
+  }
+  .col-sm-4 {
+    padding: 5%!important;
+    margin: 0%!important;
+    width: 33%!important;
+  }
+  h6 {
+    font-size: small;
+  }
+}
